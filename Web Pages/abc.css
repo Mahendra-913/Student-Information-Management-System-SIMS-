@@ -1,0 +1,50 @@
+body
+{
+background-image:url(radhe.jpg);
+ background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: cover;
+
+}
+#mymenu
+{
+background:rgba(0,0,0,0.5);
+color:white;
+text-align:right;
+}
+#mymenu ul li{
+display:inline-block;
+color:white;
+padding:20px;
+}
+
+#mymenu ul li:hover
+{
+background:black;
+}
+table{
+background:rgba(0,0,0,0.5);
+ color:background; 
+margine-top:100px;
+box-shadow:10px 10px 10px white;
+}
+/*.table
+{
+    tr:hover{background-color: coral;}
+}*/
+.B{
+width:95px;
+height:40px;
+color:white;
+background:linear-gradient(to right, black , red);
+border-radius:0px 40px 0px 40px;
+box-shadow:5px 5px 5px white;
+}
+.B:hover
+{
+width:95px;
+height:40px;
+background:linear-gradient(red,black,gray);
+color :white;
+border-radius:40px,0px,40px,0px;
+}
